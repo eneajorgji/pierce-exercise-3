@@ -1,1 +1,10 @@
-{}
+{
+    "chromeWebSecurity": false,
+    "reporter": "mochawesome",
+    "projectId": "Eni2021",
+
+    "env": 
+    {
+        "url": "https://www.24mx"
+    }
+}
