@@ -9,11 +9,4 @@ describe('Home Page Test', function () {
         HomePage.acceptCookies();
     })
 
-    // it('Reload the page', function () {
-    //     HomePage.reloadPage();
-    // })
-
-    // it('Be visible TC', function () {
-    //     HomePage.beVisible();
-    // })
 })
