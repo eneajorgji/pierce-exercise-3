@@ -1,5 +1,5 @@
 class HomePage {
-    #TODO Think about SetUp and TearDown
+    // #TODO Think about SetUp and TearDown
     static loadHomePage() {
         cy.viewport(1280, 720);
         cy.visit(Cypress.env('url') + '.ie/');
