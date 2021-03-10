@@ -19,5 +19,8 @@
   "homepage": "https://github.com/eneajorgji/pierce-exercise-3#readme",
   "dependencies": {
     "cypress": "^6.6.0"
+  },
+  "devDependencies": {
+    "cypress-wait-until": "^1.7.1"
   }
 }

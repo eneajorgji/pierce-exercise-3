@@ -10,7 +10,7 @@ describe('Subcribe email Test', function () {
         HomePage.acceptCookies();
     })
 
-    it('Submit email', function(){
+    it('Type in email and click sumbit', function () {
         SubscribeNewsLetter.typeEmail();
     })
 })
