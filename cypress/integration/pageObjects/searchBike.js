@@ -9,7 +9,7 @@ class SearchBike {
     static getSearchResultName() {
         cy.viewport(1280, 720);
         cy.get('div.m-search-header__headline')
-            .should('contain.text', 'Bike')
+            .should('contain.text', 'Bike');
     }
 }
 

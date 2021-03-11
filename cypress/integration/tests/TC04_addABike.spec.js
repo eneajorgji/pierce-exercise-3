@@ -10,13 +10,12 @@ describe('Add a Bike', function () {
         HomePage.acceptCookies();
     })
 
-    it('Click add anvelihicle', function(){
+    it('Click add anvelihicle', function () {
         AddABike.addABikeIcon();
         AddABike.addAnItem();
         AddABike.closePopUp();
         AddABike.chooseBrand();
         AddABike.chooseModelYear();
         AddABike.chooseModel();
-        // AddABike.getText();
     })
 })

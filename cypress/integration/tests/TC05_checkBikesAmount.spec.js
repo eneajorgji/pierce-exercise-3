@@ -1,7 +1,7 @@
 import HomePage from '../pageObjects/homePage'
-import AddToCart from '../pageObjects/addToCart'
+import CheckBikesAmount from '../pageObjects/checkBikesAmount'
 
-describe('Add item to cart', function () {
+describe('Checking amount', function () {
     it('Home Page TC', function () {
         HomePage.loadHomePage();
     })
@@ -10,8 +10,7 @@ describe('Add item to cart', function () {
         HomePage.acceptCookies();
     })
 
-    it('Add item to cart', function(){
-        AddToCart.addItemToCard();
+    it('Get amount of bike', function () {
+        CheckBikesAmount.amountOfBike();
     })
-
 })
